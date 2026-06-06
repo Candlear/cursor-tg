@@ -10,6 +10,4 @@ COPY src ./src
 
 RUN pip install --no-cache-dir .
 
-VOLUME ["/data"]
-
 CMD ["python", "-m", "cursor_tg_connector"]
